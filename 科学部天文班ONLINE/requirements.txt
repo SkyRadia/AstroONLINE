@@ -1,0 +1,7 @@
+Flask
+google-cloud-datastore
+line-bot-sdk==1.18.0
+mechanize
+vendor
+fake_useragent
+ephem
