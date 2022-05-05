@@ -1,14 +1,7 @@
-import ast
-import os
-import random
-import re
-import sys
-import traceback
+import ast, os, random, re, sys, traceback, math, ephem
+
 from datetime import datetime, timedelta, timezone
 from math import degrees, remainder
-import math
-
-import ephem
 from flask import Flask, abort, request, Response
 from google.cloud import datastore, scheduler_v1
 from linebot import LineBotApi, WebhookHandler
